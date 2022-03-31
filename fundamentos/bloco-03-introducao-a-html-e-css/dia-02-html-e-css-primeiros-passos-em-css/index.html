@@ -9,27 +9,42 @@
 
     body {
         font-size: 16px;
+        font-style: italic;
     }    
 
     h1 {
         font-family: sans-serif;
         font-size: 65px;
         color: orange;
+        text-align: center;
     }
 
     p {
+        line-height: 2;
         font-weight: 600;
+        font-size: 3em;
+    }
+
+    ul {
+        line-height: 2;
+        text-decoration: underline;
     }
 
     .same-color {
         background-color: lightblue;
     }
 
-    
+    #yellow {
+        background-color: yellow;
+    }
 
+    #red {
+        background-color: red;
+    }
 
-
-
+    #brown {
+        background-color: brown;
+    }
 
 
 
@@ -37,12 +52,12 @@
 </head>
 <body>
 
-    <h1>Exercícios 3.2</h1>
+    <h1 class="same-color">Exercícios 3.2</h1>
     <p class="same-color">Qual é a sua cor favorita?</p>
     <ul class="same-color">
-        <li>Amarelo</li>
-        <li>Vermelho</li>
-        <li>Marrom</li>
+        <li id="yellow">Amarelo</li>
+        <li id="red">Vermelho</li>
+        <li id="brown">Marrom</li>
     </ul>
 </body>
 </html>
