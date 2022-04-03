@@ -1,0 +1,53 @@
+
+body {
+    background-color: bisque;
+}
+
+div:hover {
+    border: solid;
+}
+
+#div1 {
+    border-color: yellow ;
+}
+
+#div2 {
+    border-color: orange;
+}
+
+#div3 {
+    border-color: purple ;
+    border-width: 10px;
+}
+
+#div4 {
+    border-color: midnightblue ;
+}
+
+#div5 {
+    border-color: lightcoral ;
+}
+
+#h3-1 {
+    color: yellow;
+}
+
+#h3-2 {
+    color: orange;
+}
+
+#h3-3 {
+    color: purple;
+}
+
+#h3-4 {
+    color: midnightblue;
+}
+
+#h3-5 {
+    color: lightcoral;
+}
+
+#h3-1, #h3-3, #h3-5 {
+    font-style: italic;
+}
