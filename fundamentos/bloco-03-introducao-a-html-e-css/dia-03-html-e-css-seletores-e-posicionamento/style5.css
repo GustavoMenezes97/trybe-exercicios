@@ -35,3 +35,22 @@ ul li.java {
     background-color: pink;
 }
 
+ul li a:hover {
+    font-weight: bold;
+}
+
+#stack:hover {
+    color: orange;
+}
+
+.w3s-trybe:hover {
+    color: green;
+}
+
+#mdn:hover {
+    color: black;
+}
+
+#dev:hover {
+    color: yellow;
+}
