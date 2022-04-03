@@ -1,0 +1,33 @@
+
+
+    ol, ul {
+        list-style: none;
+    }
+
+    h1, p {
+        text-align: center;
+    }
+
+    div {
+        border: solid red;
+        width: 245px;
+        padding: 5px 5px 5px 5px;
+        margin: auto;
+        text-align: left;
+    }
+
+    ol, ul {
+        text-align: left;
+        padding: 0;
+    }
+
+    li:hover {
+        background-color: aquamarine;
+    }
+
+    li:active {
+        color: rgb(24, 34, 170);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
