@@ -10,13 +10,20 @@
 
       body, section, header, nav, main, aside, footer {
         border: solid red;
+        margin: 10px;
+        padding: 10px;
+      }
+
+      header {
+        background-color: rgb(148, 148, 148);
+        margin: 0;
+        ;
       }
       
       h1 {
         font-family: Rakkas;
         font-size: 50px;
-        width: 850px;
-        display: inline-block;
+        text-align: center;
       }
 
       .section-home {
@@ -24,18 +31,19 @@
         margin-right: auto;
       }
 
-      .nav-home {
+      .nav-home li {
         font-family: Rakkas;
-        display: inline-block;
+      }
+
+      .nav-home {
+        background-color: rgb(161, 161, 161);
       }
 
       .ul-home {
         list-style: none;
         padding-inline-start: 0px;
-      }
-
-      .ul-home li {
-        
+        display: flex;
+        justify-content: space-around;
       }
 
 
@@ -53,7 +61,7 @@
     <nav class="nav-home">
       
       <ul class="ul-home">
-          <li> <a href="" target="_blank"> Página Inicial </a>  </li>
+          <li> <a href="" target="_blank"> Página Inicial </a> </li>
           <li> <a href="" target="_blank"> Sobre </a> </li>
           <li> <a href="" target="_blank"> Contato </a> </li>
       </ul>
