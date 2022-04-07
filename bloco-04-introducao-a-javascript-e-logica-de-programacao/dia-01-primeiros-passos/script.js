@@ -19,3 +19,17 @@ if (c > d) {
 } else {
     console.log(d);
 }
+
+// Etapa 3
+
+const e = 67;
+const f = 7;
+const g = 99;
+
+if (e > f && e > g) {
+    console.log(e);
+} else if (f > e && f > g) {
+    console.log(f);
+} else {
+    console.log(g);
+}
