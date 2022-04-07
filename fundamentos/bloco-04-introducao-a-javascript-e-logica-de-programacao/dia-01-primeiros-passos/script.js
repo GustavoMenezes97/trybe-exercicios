@@ -43,3 +43,23 @@ if (h > 0) {
 } else {
     console.log("negative");
 }
+
+// Etapa 5
+
+const lado1 = 60;
+const lado2 = 60;
+const lado3 = 60;
+
+let somaDosLados = lado1 + lado2 + lado3;
+let tudoPositivo = lado1 > 0 && lado2 > 0 && lado3 > 0;
+
+if (tudoPositivo) {
+if (somaDosLados === 180) {
+    console.log("true");
+} else {
+    console.log("false");
+}
+} else {
+    console.log("Erro: Valor negativo inserido");
+}
+
