@@ -110,3 +110,15 @@ if (nota >= 90 && nota <= 100) {
 } else {
     console.log("Erro: Nota inválida.");
 }
+
+// Etapa 8
+
+const primeira = 33;
+const segunda = 70;
+const terceira = 97;
+
+if (primeira % 2 === 0 || segunda % 2 === 0 || terceira % 2 === 0) {
+    console.log("True");
+} else {
+    console.log("False")
+}
