@@ -122,3 +122,15 @@ if (primeira % 2 === 0 || segunda % 2 === 0 || terceira % 2 === 0) {
 } else {
     console.log("False")
 }
+
+// Etapa 9
+
+const quarta = 22;
+const quinta = 44;
+const sexta = 3;
+
+if (quarta % 2 !== 0 || quinta % 2 !== 0 || sexta % 2 !== 0) {
+    console.log("True");
+} else {
+    console.log("False")
+}
