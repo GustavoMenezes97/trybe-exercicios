@@ -147,3 +147,36 @@ if (custo >= 0 && valorVenda >= 0) {
 } else {
     console.log("Erro: Valor inserido incorretamente")
 }
+
+// Etapa 11
+
+const salarioBruto = 22000;
+
+let inssOito = 1556.94;
+let inssNove = 2594.92;
+let inssOnze = 5189.82;
+let inssTeto = 570.88
+
+if (salarioBruto <= inssOito) {
+    salarioBase = salarioBruto - (salarioBruto * 0.08);
+} else if (salarioBruto <= inssNove) {
+    salarioBase = salarioBruto - (salarioBruto * 0.09); 
+} else if (salarioBruto <= inssOnze) {
+    salarioBase = salarioBruto - (salarioBruto * 0.11);
+} else {
+    salarioBase = salarioBruto - inssTeto;
+}
+
+if (salarioBase <= 1903.98) {
+    salarioLiquido = salarioBase;
+} else if (salarioBase <= 2826.65) {
+    salarioLiquido = salarioBase - (salarioBase * 0.075 - 142.80);
+} else if (salarioBase <= 3751.05) {
+    salarioLiquido = salarioBase - (salarioBase * 0.15 - 354.80);
+} else if (salarioBase <= 4664.68) {
+    salarioLiquido = salarioBase - (salarioBase * 0.225 - 636.13);
+} else if (salarioBase > 4664.68) {
+    salarioLiquido = salarioBase - (salarioBase * 0.275 - 869.36);
+}
+
+console.log("Salário líquido: R$" + salarioLiquido.toFixed(2));
