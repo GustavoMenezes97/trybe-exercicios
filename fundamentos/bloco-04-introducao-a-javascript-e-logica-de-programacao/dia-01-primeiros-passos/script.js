@@ -134,3 +134,16 @@ if (quarta % 2 !== 0 || quinta % 2 !== 0 || sexta % 2 !== 0) {
 } else {
     console.log("False")
 }
+
+// Etapa 10
+
+const custo = 20;
+const valorVenda = 80;
+
+if (custo >= 0 && valorVenda >= 0) {
+    let valorCustoTotal = (custo * 0.2) + custo;
+    let lucro = valorVenda - valorCustoTotal;
+    console.log("O lucro foi de R$" + (lucro * 1000));
+} else {
+    console.log("Erro: Valor inserido incorretamente")
+}
