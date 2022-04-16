@@ -24,7 +24,7 @@ for (index = 0; index < array.length; index += 1) {
     }
 }
 
-console.log(maiorPalavra);
+// console.log(maiorPalavra);
 
 let menorPalavra = array[0];
 
@@ -34,4 +34,20 @@ for (index = 0; index < array.length; index += 1) {
     }
 }
 
-console.log(menorPalavra);
+// console.log(menorPalavra);
+
+let maiorNumeroPrimo = 0;
+
+for (let numeros = 0; numeros <= 50; numeros += 1) {
+    let primo = true;
+    for (let divisor = 2; divisor < numeros; divisor += 1) {
+        if (numeros % divisor === 0) {
+            primo = false;
+        }
+    }
+    if (primo) {
+        maiorNumeroPrimo = numeros;
+    }
+}
+
+console.log(maiorNumeroPrimo);
