@@ -108,3 +108,35 @@ function displayFridays() {
 
 displayFridays();
 
+function zoomIn() {
+    let days = document.querySelector('#days')
+
+    days.addEventListener('mouseover', function(event) {
+        event.target.style.fontSize = '30px';
+        event.target.style.fontWeight = '600';
+    })
+}
+
+function zoomOut() {
+    let days = document.querySelector('#days')
+
+    days.addEventListener('mouseout', function(event) {
+        event.target.style.fontSize = '20px';
+        event.target.style.fontWeight = '200';
+    })
+}
+
+zoomIn();
+zoomOut();
+
+function customTask(task) {
+    let taskFather = document.querySelector('.my-tasks');
+    let newTaskElement = document.createElement('span');
+
+    newTaskElement.innerText = task;
+    taskFather.appendChild(newTaskElement);
+}
+
+customTask('Estudar');
+
+
