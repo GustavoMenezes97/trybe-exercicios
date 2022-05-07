@@ -14,7 +14,7 @@ const testingScope = (escopo) => {
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
 const returnOdds = () => {
-    const sortOdds = oddsAndEvens.sort((a, b) => a - b);
+    const sortOdds = oddsAndEvens.sort((a, b) => a - b); //buscar entender melhor o .sort()
     return sortOdds
 }
 
