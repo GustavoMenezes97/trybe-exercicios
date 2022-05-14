@@ -12,4 +12,14 @@ const newEmployees = (func) => {
     return employees;
   };
 
-  console.log(newEmployees(employeesInf));
+//   console.log(newEmployees(employeesInf));
+
+const numberCheck = (myNumber, number) => myNumber === number;
+
+const result = (myNumber, func) => {
+    const number = Math.round(Math.random() * (5 - 1) + 1);
+
+    return func(myNumber, number) ? 'Parabéns, você ganhou!' : 'Tente novamente!';
+}
+
+console.log(result(5, numberCheck));
